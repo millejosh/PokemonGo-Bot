@@ -12,6 +12,7 @@ We use [Slack](https://slack.com) as a web chat. [Click here to join the chat!](
  * Release low cp pokemon
  * Walking as you
  * Use the ball you have to catch, don't if you don't have
+ * Tranfers all of your duplicate pokemon 
 
 # To-Do:
 - [ ] Google Map API key setup
@@ -90,6 +91,7 @@ This project uses Google Maps. There's one map coupled with the project, but as 
       -m MODE, --mode MODE                              Set farming Mode for the bot ('all', 'poke', 'farm')
       --maxstep MAX_STEP                            Set the steps around your initial location(DEFAULT 5 mean 25 cells around your location)
       -c CP, --cp                                   Set the CP to transfer or lower (eg. 100 will transfer CP0-99)
+      --firsttrans                                  transfers all your duplicated pokemons, leaving only highest CP of type
       -d, --debug                                   Debug Mode
       -t, --test                                    Only parse the specified location
 
